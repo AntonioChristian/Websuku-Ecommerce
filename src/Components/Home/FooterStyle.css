@@ -1,0 +1,97 @@
+.footer {
+    background-color: #E1B000;;
+    padding: 30px 25px;
+    margin-top: 70px;
+  }
+  
+  .footer .container .row {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .footer .container .row:first-child {
+    margin-bottom: 20px;
+  }
+  
+  .footer .container .row .col {
+    flex: 1;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer .container .row .col:first-child img {
+    width: 150px;
+  }
+  
+  .footer .container .row .col:first-child .content {
+    padding: 5px 0;
+  }
+  
+  .footer .container .row .col:first-child .content p {
+    letter-spacing: 1.2px;
+    margin: 0;
+  }
+  
+  .footer .container .row .col h3, h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  } 
+  
+  .footer .container .row .col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer .container .row .col ul li a {
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+  
+  .footer .container .row .col ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .container .row .col .right svg {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: all 1s;
+  }
+  
+  .footer .container .row .col .right svg:hover {
+    transform: scale(1.5);
+  }
+  
+  .footer .copyRights {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+
+  .footer, :root{
+    background-color: #E1B000;
+    background-size: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer .container .row {
+      flex-direction: column;
+    }
+  
+    .footer .container .row .col:first-child img {
+      width: 250px;
+      height: auto;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .footer .container .row .col:first-child img {
+      width: 250px;
+      height: auto;
+    }
+  
+    .footer .container .row .col h3 {
+      font-size: 18px;
+    }
+  }

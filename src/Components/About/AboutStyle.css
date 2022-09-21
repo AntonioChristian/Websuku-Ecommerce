@@ -1,0 +1,29 @@
+.blog h2 {
+  padding-left: 125vh;
+  position: absolute;
+  padding-right: 5vh;
+  top: 300px;
+  font-size: 40px;
+  color: rgb(255, 255, 255) ;
+}
+
+.blog p {
+  padding-left: 80vh;
+  padding-right: 5vh;
+  position: absolute;
+  top: 350px;
+  font-size: 15px;
+  color: rgb(48, 47, 47) ;
+}
+.blog img{
+  
+  padding-left: 10vh;
+  padding-top: 20vh;
+}
+ 
+@media screen and (max-width: 768px) {
+  .blog img.h2.blog p{
+    flex-direction: column;
+    
+  }
+}
